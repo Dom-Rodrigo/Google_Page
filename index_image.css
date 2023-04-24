@@ -1,0 +1,56 @@
+#form {
+    height: 200px;
+}
+
+form > input {
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"] {
+    width: 400px;
+    height: 25px;
+    border-radius: 30px;
+    border: 1px solid #5f6368;
+    background-color: #202124;
+    color: #bdc1c6;
+    padding: 10px;
+}
+
+img {
+    margin-bottom: 10px;
+}
+
+.bt {
+    border: none;
+    cursor: pointer;
+    background: none;
+    position: relative;
+    left: 380px;
+    bottom: 38px; 
+}
+
+input[type="submit"] {
+    color: white;
+    background-color: #303134;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    padding: 12px;
+    margin-top: 12px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+span {
+    position: absolute;
+    margin-top: 151px;
+    color: #4487f6;
+    margin-left: 167px;
+}

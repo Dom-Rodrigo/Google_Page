@@ -1,0 +1,27 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#links {
+    display: flex;
+    height: 100px;
+    min-height: 50px;
+    align-self: flex-end;
+    gap: 10px;
+}
+
+body, body > #form {
+    display: flex;
+    flex-direction: column;
+    background-color: #202124;
+    align-items: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
